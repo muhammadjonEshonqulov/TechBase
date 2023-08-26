@@ -1,0 +1,1 @@
+package uz.teach.base.model.checkupdata class SaveCheckupsResponse(    val success: Boolean?)

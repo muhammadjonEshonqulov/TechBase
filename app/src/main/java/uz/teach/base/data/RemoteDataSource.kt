@@ -2,7 +2,9 @@ package uz.teach.base.data
 
 import retrofit2.Response
 import uz.teach.base.data.network.ApiService
+import uz.teach.base.model.checkup.CheckupBody
 import uz.teach.base.model.checkup.CheckupsResponse
+import uz.teach.base.model.checkup.SaveCheckupsResponse
 import uz.teach.base.model.login.LoginBody
 import uz.teach.base.model.login.LoginResponse
 import uz.teach.base.model.me.MeResponse
@@ -21,8 +23,8 @@ class RemoteDataSource @Inject constructor(private val apiService: ApiService) {
         return apiService.checkups(techniqueId)
     }
 
-    suspend fun saveCheckups(techniqueId: Int): Response<CheckupsResponse> {
-        return apiService.saveCheckups(techniqueId)
+    suspend fun saveCheckups(techniqueId: String?, checkupBody: CheckupBody): Response<SaveCheckupsResponse> {
+        return apiService.saveCheckups(techniqueId, checkupBody)
     }
 
 }

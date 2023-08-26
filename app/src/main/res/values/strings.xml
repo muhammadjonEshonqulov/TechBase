@@ -13,4 +13,10 @@
     <string name="logout_message">Siz rostan ham tizimdan chiqmoqchimisiz?</string>
     <string name="cancel">Bekor qilish</string>
     <string name="proccessing">Ishlab chiqishda</string>
+
+    <string-array name="status_names">
+        <item>Yangi</item>
+        <item>Ishlaydi</item>
+        <item>Yaroqsiz</item>
+    </string-array>
 </resources>
