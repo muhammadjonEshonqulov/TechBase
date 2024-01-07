@@ -11,6 +11,7 @@
         android:id="@+id/image_user"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        app:cardBackgroundColor="@color/white"
         android:layout_margin="@dimen/left_right_margin_size"
         app:cardCornerRadius="@dimen/normal_size">
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="uz.teach.base.ui.login.LoginFragment"
+        android:name="uz.tech.base.ui.login.LoginFragment"
         android:label="AuthFragment"
         tools:layout="@layout/fragment_login">
 
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="uz.teach.base.ui.splash.SplashFragment"
+        android:name="uz.tech.base.ui.splash.SplashFragment"
         android:label="SplashFragment">
         <action
             android:id="@+id/action_splashFragment_to_loginFragment"
@@ -48,11 +48,11 @@
     </fragment>
     <fragment
         android:id="@+id/webViewFragment"
-        android:name="uz.teach.base.ui.webview.WebViewFragment"
+        android:name="uz.tech.base.ui.webview.WebViewFragment"
         android:label="WebViewFragment" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="uz.teach.base.ui.main.MainFragment"
+        android:name="uz.tech.base.ui.main.MainFragment"
         android:label="MainFragment">
         <action
             android:id="@+id/action_mainFragment_to_WebViewFragment"

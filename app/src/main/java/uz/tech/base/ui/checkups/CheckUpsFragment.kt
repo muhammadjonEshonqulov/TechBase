@@ -1,0 +1,1 @@
+package uz.tech.base.ui.checkups//class CheckUpsFragment:BaseFragment<> {//}

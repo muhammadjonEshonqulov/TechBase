@@ -1,0 +1,1 @@
+package uz.tech.base.model.checkupdata class CheckupBody(    val eligibility: Int)

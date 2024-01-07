@@ -15,5 +15,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "TeachBase"
+rootProject.name = "TechBase"
 include ':app'

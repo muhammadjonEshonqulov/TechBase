@@ -1,1 +1,0 @@
-package uz.teach.base.model.checkupdata class CheckupBody(    val eligibility: Int)

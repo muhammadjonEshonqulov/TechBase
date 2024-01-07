@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">TeachBase</string>
+    <string name="app_name">TechBase</string>
     <string name="bad_network_message">Serverga bog\'lanish amalga oshmadi. Tarmoqqa ulanganligingizni tekshirib ko\'ring.</string>
     <string name="onother_error">\"Kutilmagan xatolik : \"\n</string>
     <string name="login_or_password_incorrect">Login yoki parol noto\'g\'ri kiritildi</string>
     <string name="connection_error">Tarmoqqa ulanish mavjud emas</string>
     <string name="profile">Profil</string>
-    <string name="settings">Sozlamalar</string>
+    <string name="settings">Malarial</string>
     <string name="theme">Mavzular</string>
     <string name="languages">Tillar</string>
     <string name="logout">Chiqish</string>

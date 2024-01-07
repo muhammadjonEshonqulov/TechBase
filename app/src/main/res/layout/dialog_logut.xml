@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     app:cardCornerRadius="@dimen/default_margin"
+    app:cardBackgroundColor="@color/white"
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true"
     app:cardElevation="@dimen/small_margin">
@@ -30,6 +31,7 @@
             android:id="@+id/logout_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/default_text_color"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/rubrik"
             android:text="@string/logout_message"
